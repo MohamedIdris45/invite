@@ -1,0 +1,71 @@
+.bg {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../images/heart1.gif");
+    background-size: cover;
+    position: relative;
+}
+
+.bg1 {
+    background-image: url("../images/one.gif");
+    background-size: cover;
+    position: relative;
+}
+
+.save {
+    margin-top: 150px;
+    color: red;
+}
+
+.chan {
+    color: #ffffff;
+    animation-duration: col 6s infinite;
+    -webkit-animation: col 6s infinite;
+    -moz-animation: col 6s infinite;
+    -o-animation: col 6s infinite;
+    -ms-animation: col 6s infinite;
+}
+
+@keyframes col {
+    0% {
+        color: #ffffff;
+    }
+    25% {
+        color: #d9d9d9;
+    }
+    50% {
+        color: #b3b3b3;
+    }
+    100% {
+        color: #ffccb3;
+    }
+}
+
+.hes {
+    color: pink;
+    animation-duration: he 6s infinite;
+    -webkit-animation: he 6s infinite;
+    -moz-animation: he 6s infinite;
+    -o-animation: he 6s infinite;
+    -ms-animation: he 6s infinite;
+}
+
+@keyframes he {
+    0% {
+        color: pink;
+    }
+    25% {
+        color: palevioletred;
+    }
+    50% {
+        color: #ff6666;
+    }
+    100% {
+        color: #ff4d94;
+    }
+}
+
+.section
+{
+  margin-top: 100px;
+}
